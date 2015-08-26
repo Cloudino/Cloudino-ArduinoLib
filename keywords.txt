@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For Cloudino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Cloudino	KEYWORD1	Cloudino
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+post	KEYWORD2
+on	KEYWORD2
+setTimer	KEYWORD2
+setInterval	KEYWORD2
+setTimeout	KEYWORD2
+begin	KEYWORD2
+loop	KEYWORD2
+write	KEYWORD2
+deleteTimer	KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
