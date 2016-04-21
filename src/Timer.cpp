@@ -50,6 +50,7 @@ int Timer::setTimer(unsigned long d, timer_callback f, int n, timer_callback f2)
         _end->next=inst;
         _end=inst;
     }
+    return inst->id;
 }
 
 int Timer::setInterval(unsigned long d, timer_callback f) {

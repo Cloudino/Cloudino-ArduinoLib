@@ -22,7 +22,7 @@ struct MessageProc::RequestHandler {
 void MessageProc::waitSerial()
 {
   unsigned long time=millis();
-  while(!Serial.available() && millis()-time<1000){delay(1);}
+  while(Serial.available()==0 && millis()-time<1000){delay(1);}
 }
 
 void MessageProc::loop()
@@ -114,7 +114,7 @@ void MessageProc::post(String topic, String data)
     Serial.print(SEP);              //|
     Serial.print(data);             //mesage
   }
-}  
+}
 
 size_t MessageProc::write(const uint8_t *buffer, size_t size)
 {
