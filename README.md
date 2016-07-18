@@ -1,3 +1,3 @@
 # Cloudino-ArduinoLib
 
-WebSite: http://cloudino.io
+WebSite: http://cloudino.cc
